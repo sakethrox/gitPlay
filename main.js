@@ -14,5 +14,7 @@ var john = {
 
 john.__proto__ = person;
 
-console.log(john.getFullName())
+console.log(john.getFullName.apply(person))
 console.log(john.firstname)
+
+var a = {}
